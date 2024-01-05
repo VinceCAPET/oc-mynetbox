@@ -11,10 +11,9 @@ pip install -r requirements.txt
 
 echo "---> Installing extra dependencies ..."
 pip3 install \
-    gunicorn==19.9.0 \
-    whitenoise==4.1.2 \
-    social-auth-core==3.1.0 \
-    social-auth-app-django==3.1.0
+    gunicorn==20.1.0 \
+    social-auth-core==4.4.2 \
+    social-auth-app-django==5.2.0
 
 # Custom settings.py
 mv netbox/netbox/settings.py netbox/netbox/upstream_settings.py
