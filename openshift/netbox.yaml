@@ -17,11 +17,11 @@ parameters:
 - displayName: Git Remote
   name: GIT_REMOTE
   required: true
-  value: https://github.com/digitalocean/netbox
+  value: https://github.com/netbox-community/netbox
 - displayName: Git Reference
   name: GIT_REF
   required: true
-  value: v2.5.12
+  value: v3.6.4
 - displayName: Public FQDN
   name: FQDN
   required: true
@@ -60,7 +60,7 @@ parameters:
   displayName: Version of PostgreSQL Image
   name: POSTGRESQL_VERSION
   required: true
-  value: "9.6"
+  value: "12.5"
 
 objects:
 
